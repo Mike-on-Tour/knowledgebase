@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 -	The `composer.json` file according to new version
 -	Changed the use of `sizeof()` to `count()` in `controller/admin_controller.php` and `controller/main_controller.php`
+-	Prefixed all languge variables in `language/ISO/common.php`, `language/ISO/exceptions.php` and corresponding template and PHP files with `KB_`
+	(with the exception of 'APPROVED', 'DENIED' and 'DISAPPROVED' since this variables serve as keys into an array and prefixing them destroys the array
+	and results in an exception)
+-	Changed language variable prefix from `ACP_` to `ACP_KNOWLEDGEBASE_` in `language/ISO/info_acp_knowledgebase.php` and corresponding template and
+	PHP files
   
 ### Fixed
 -	The undefined index `cat_name` to `category_name` in `controller/admin_controller.php`, line 760
