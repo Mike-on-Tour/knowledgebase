@@ -41,12 +41,12 @@ $lang = array_merge($lang, array(
 	'KB_ALL_CATEGORIES'			=> 'Alle Kategorien',
 	'KB_APPROVE'				=> 'Veröffentlichen',
 	'KB_APPROVE_ARTICLE'		=> 'Artikel veröffentlichen',
-	'APPROVED'				=> 'Veröffentlicht',
+	'KB_APPROVED'				=> 'Veröffentlicht',
 	'KB_ARTICLES'				=> 'Artikel',
 	'KB_ARTICLE_CONFIRM'		=> 'Bist du dir sicher, dass du diesen Artikel %1$s willst?',
-'ARTICLE_DENIED'		=> 'Artikel abgelehnt',
+	'KB_ARTICLE_DENIED'		=> 'Artikel abgelehnt',
 	'KB_ARTICLE_STORED_MOD'		=> 'Dieser Artikel wurde erfolgreich gespeichert und wird durch die Moderatoren freigegeben.',
-'ARTICLE_DISAPPROVED'	=> 'Artikel zurückgestellt',
+	'KB_ARTICLE_DISAPPROVED'	=> 'Artikel zurückgestellt',
 	'KB_AUTHOR'					=> 'Autor',
 
 	'KB_BUTTON_APPROVE'			=> 'Veröffentlichen',
@@ -60,13 +60,13 @@ $lang = array_merge($lang, array(
 	'KB_CHANGE_POSTER'			=> 'Ändere Autor',
 
 	'KB_DELETE_ARTICLE'			=> 'Artikel löschen',
-	'DENIED'				=> 'Abgelehnt',
+	'KB_DENIED'				=> 'Abgelehnt',
 	'KB_DENY'					=> 'ablehnen',
 	'KB_DENY_ARTICLE'			=> 'Artikel ablehnen',
 	'KB_DESCRIPTION'			=> 'Beschreibung',
 	'KB_DISAPPROVE'				=> 'zurückstellen',
 	'KB_DISAPPROVE_ARTICLE'		=> 'Artikel zurückstellen',
-	'DISAPPROVED'			=> 'Zurückgestellt',
+	'KB_DISAPPROVED'			=> 'Zurückgestellt',
 
 	'KB_EDIT_ARTICLE'			=> 'Artikel ändern',
 
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 
 	'KB_NO_ARTICLE'				=> 'Der aufgerufene Artikel existiert nicht.',
 	'KB_NO_ARTICLES'			=> 'Es gibt keine Artikel, die dem gewählten Filter entsprechen.',
-'NO_CATEGORY'			=> 'Die aufgerufene Kategorie existiert nicht.',
+	'KB_NO_CATEGORY'			=> 'Die aufgerufene Kategorie existiert nicht.',
 	'KB_NO_PAGE_MODE'			=> 'Ungültiger Aufruf der Seite',
 
 	'KB_POST_ARTICLE'			=> 'Neuen Artikel verfassen',
