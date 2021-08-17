@@ -40,10 +40,10 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'KB_EXCEPTION_FIELD_MISSING'		=> 'Champ requis manquant',
-	'KB_EXCEPTION_INVALID_ARGUMENT'		=> 'Argument spécifié invalide pour `%1$s`. Raison : %2$s',
+	'KB_EXCEPTION_INVALID_ARGUMENT'	=> 'Argument spécifié invalide pour `%1$s`. Raison : %2$s',
 	'KB_EXCEPTION_OUT_OF_BOUNDS'		=> 'Le champ `%1$s` a reçu des données en dehors des bornes',
-	'KB_EXCEPTION_TOO_LONG'				=> 'L’entrée est plus longue que la longueur maximale.',
+	'KB_EXCEPTION_TOO_LONG'			=> 'L’entrée est plus longue que la longueur maximale.',
 	'KB_EXCEPTION_NOT_UNIQUE'			=> 'L’entrée n’est pas unique.',
-	'KB_EXCEPTION_UNEXPECTED_VALUE'		=> 'Le champ `%1$s` a reçu des données non attendues. Raison : %2$s',
+	'KB_EXCEPTION_UNEXPECTED_VALUE'	=> 'Le champ `%1$s` a reçu des données non attendues. Raison : %2$s',
 	'KB_EXCEPTION_ILLEGAL_CHARACTERS'	=> 'L’entrée contient des caractères interdits.',
 ));

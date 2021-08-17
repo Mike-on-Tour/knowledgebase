@@ -38,49 +38,49 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'KB_ALL_CATEGORIES'			=> 'Alle Kategorien',
+	'KB_ALL_CATEGORIES'		=> 'Alle Kategorien',
 	'KB_APPROVE'				=> 'Veröffentlichen',
 	'KB_APPROVE_ARTICLE'		=> 'Artikel veröffentlichen',
-	'APPROVED'				=> 'Veröffentlicht',
+	'KB_APPROVED'				=> 'Veröffentlicht',
 	'KB_ARTICLES'				=> 'Artikel',
 	'KB_ARTICLE_CONFIRM'		=> 'Sind Sie sich sicher, dass Sie diesen Artikel %1$s wollen?',
-	'ARTICLE_DENIED'		=> 'Artikel abgelehnt',
-	'KB_ARTICLE_STORED_MOD'		=> 'Dieser Artikel wurde erfolgreich gespeichert und wird durch die Moderatoren freigegeben.',
-	'ARTICLE_DISAPPROVED'	=> 'Artikel zurückgestellt',
-	'KB_AUTHOR'					=> 'Autor',
+	'KB_ARTICLE_DENIED'		=> 'Artikel abgelehnt',
+	'KB_ARTICLE_STORED_MOD'	=> 'Dieser Artikel wurde erfolgreich gespeichert und wird durch die Moderatoren freigegeben.',
+	'KB_ARTICLE_DISAPPROVED'	=> 'Artikel zurückgestellt',
+	'KB_AUTHOR'				=> 'Autor',
 
-	'KB_BUTTON_APPROVE'			=> 'Veröffentlichen',
+	'KB_BUTTON_APPROVE'		=> 'Veröffentlichen',
 	'KB_BUTTON_DELETE'			=> 'Löschen',
 	'KB_BUTTON_DENY'			=> 'Ablehnen',
 	'KB_BUTTON_EDIT'			=> 'Bearbeiten',
-	'KB_BUTTON_NEW_ARTICLE'		=> 'Neuer Artikel',
+	'KB_BUTTON_NEW_ARTICLE'	=> 'Neuer Artikel',
 	'KB_BUTTON_DISAPPROVE'		=> 'Zurückstellen',
 
-	'KB_CATEGORIES'				=> 'Kategorie',
+	'KB_CATEGORIES'			=> 'Kategorie',
 	'KB_CHANGE_POSTER'			=> 'Ändere Autor',
 
-	'KB_DELETE_ARTICLE'			=> 'Artikel löschen',
-	'DENIED'				=> 'Abgelehnt',
+	'KB_DELETE_ARTICLE'		=> 'Artikel löschen',
+	'KB_DENIED'				=> 'Abgelehnt',
 	'KB_DENY'					=> 'ablehnen',
 	'KB_DENY_ARTICLE'			=> 'Artikel ablehnen',
 	'KB_DESCRIPTION'			=> 'Beschreibung',
-	'KB_DISAPPROVE'				=> 'zurückstellen',
-	'KB_DISAPPROVE_ARTICLE'		=> 'Artikel zurückstellen',
-	'DISAPPROVED'			=> 'Zurückgestellt',
+	'KB_DISAPPROVE'			=> 'zurückstellen',
+	'KB_DISAPPROVE_ARTICLE'	=> 'Artikel zurückstellen',
+	'KB_DISAPPROVED'			=> 'Zurückgestellt',
 
 	'KB_EDIT_ARTICLE'			=> 'Artikel ändern',
 
 	'KB_EMPTY_TITLE'			=> 'Bitte einen Titel angeben.',
 	'KB_EMPTY_DESCRIPTION'		=> 'Bitte eine Beschreibung angeben.',
-	'KB_EMPTY_CATEGORY'			=> 'Bitte mindestens eine Kategorie angeben.',
-	'KB_EMPTY_TEXT'				=> 'Bitte einen Beitragstext angeben.',
+	'KB_EMPTY_CATEGORY'		=> 'Bitte mindestens eine Kategorie angeben.',
+	'KB_EMPTY_TEXT'			=> 'Bitte einen Beitragstext angeben.',
 
 	'KB_INVALID_MODE'			=> 'Ungültiger Modus',
 	'KB_INVALID_TYPE'			=> 'Ungültiger Typ',
 
-	'KB_KNOWLEDGEBASE'			=> 'Knowledge Base',
-	'KB_KNOWLEDGEBASE_EXPLAIN'	=> 'In der Knowledge Base werden die häufigsten Fragen und Probleme behandelt. Die Artikel wurden von Mitgliedern erstellt und durch das Moderatoren Team auf Richtigkeit überprüft. Wenn hier nicht die Antwort auf eine Frage zu finden ist, empfehlen wir, die Foren zu durchsuchen und die Suche zu nutzen.',
-	'KB_KNOWLEDGEBASE_TITLE'	=> 'Knowledge Base ansehen',
+	'KNOWLEDGEBASE'			=> 'Knowledge Base',
+	'KNOWLEDGEBASE_EXPLAIN'	=> 'In der Knowledge Base werden die häufigsten Fragen und Probleme behandelt. Die Artikel wurden von Mitgliedern erstellt und durch das Moderatoren Team auf Richtigkeit überprüft. Wenn hier nicht die Antwort auf eine Frage zu finden ist, empfehlen wir, die Foren zu durchsuchen und die Suche zu nutzen.',
+	'KNOWLEDGEBASE_TITLE'	=> 'Knowledge Base ansehen',
 
 	'KB_LAST_MODIFIED'			=> 'zuletzt geändert',
 	'KB_LAST_MODIFIED_BY'		=> 'zuletzt geändert von',
@@ -94,9 +94,9 @@ $lang = array_merge($lang, array(
 	'KB_NOTIFICATION_ARTICLE_DISAPPROVED'	=> '<strong>Artikel zurückgestellt</strong>: %1$s',
 	'KB_NOTIFICATION_ARTICLE_IN_QUEUE'		=> '<strong>Freigabeanfrage zu Knowledge Base Artikel:</strong> %1$s',
 
-	'KB_NO_ARTICLE'				=> 'Der aufgerufene Artikel existiert nicht.',
+	'KB_NO_ARTICLE'			=> 'Der aufgerufene Artikel existiert nicht.',
 	'KB_NO_ARTICLES'			=> 'Es gibt keine Artikel, die dem gewählten Filter entsprechen.',
-	'NO_CATEGORY'				=> 'Die aufgerufene Kategorie existiert nicht.',
+	'KB_NO_CATEGORY'			=> 'Die aufgerufene Kategorie existiert nicht.',
 	'KB_NO_PAGE_MODE'			=> 'Ungültiger Aufruf der Seite',
 
 	'KB_POST_ARTICLE'			=> 'Neuen Artikel verfassen',
@@ -105,6 +105,6 @@ $lang = array_merge($lang, array(
 
 	'KB_VIEWING_KNOWLEDGEBASE'	=> 'Knowledge Base ansehen',
 
-	'KB_WRITTEN_BY'				=> 'Geschrieben von',
-	'KB_WRITTEN_ON'				=> 'Veröffentlicht am',
+	'KB_WRITTEN_BY'			=> 'Geschrieben von',
+	'KB_WRITTEN_ON'			=> 'Veröffentlicht am',
 ));

@@ -40,10 +40,10 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'KB_EXCEPTION_FIELD_MISSING'		=> 'Gerekli alan eksik',
-	'KB_EXCEPTION_INVALID_ARGUMENT'		=> '`%1$s` için geçersiz bağımsız değişken belirtildi. Sebep: %2$s',
+	'KB_EXCEPTION_INVALID_ARGUMENT'	=> '`%1$s` için geçersiz bağımsız değişken belirtildi. Sebep: %2$s',
 	'KB_EXCEPTION_OUT_OF_BOUNDS'		=> '`%1$s` alanı sınırın ötesinde bir veri aldı',
-	'KB_EXCEPTION_TOO_LONG'				=> 'Girdi, en yüksek uzunluğun üzerindeydi.',
+	'KB_EXCEPTION_TOO_LONG'			=> 'Girdi, en yüksek uzunluğun üzerindeydi.',
 	'KB_EXCEPTION_NOT_UNIQUE'			=> 'Girdi benzersiz değildi.',
-	'KB_EXCEPTION_UNEXPECTED_VALUE'		=> '`%1$s` alanına beklenmedik veriler geldi. Sebep: %2$s',
+	'KB_EXCEPTION_UNEXPECTED_VALUE'	=> '`%1$s` alanına beklenmedik veriler geldi. Sebep: %2$s',
 	'KB_EXCEPTION_ILLEGAL_CHARACTERS'	=> 'Girdi, illegal karakterler içeriyordu.',
 ));
