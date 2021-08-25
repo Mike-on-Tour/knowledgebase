@@ -121,7 +121,7 @@ class main_controller implements main_interface
 		}
 
 		$this->template->assign_block_vars('navlinks', array(
-			'FORUM_NAME'	=> $this->lang->lang('KB_KNOWLEDGEBASE'),
+			'FORUM_NAME'	=> $this->lang->lang('KNOWLEDGEBASE'),
 			'U_VIEW_FORUM'	=> $this->helper->route('kinerity_knowledgebase_main_controller', array('page' => 'index')),
 		));
 
@@ -313,7 +313,7 @@ class main_controller implements main_interface
 					}
 				}
 
-				return $this->helper->render('index_body.html', $this->lang->lang('KB_KNOWLEDGEBASE'));
+				return $this->helper->render('index_body.html', $this->lang->lang('KNOWLEDGEBASE'));
 			break;
 
 			case 'mcp':
@@ -934,7 +934,7 @@ class main_controller implements main_interface
 
 					'ERROR'	=> (count($error)) ? implode('<br />', $error) : '',
 
-					'L_KB_POST_A'	=> $page_title,
+					'KB_POST_A'			=> $page_title,
 
 					'S_CHGPOSTER'			=> $this->auth->acl_get('m_kb_chgposter') ? true : false,
 
@@ -958,7 +958,7 @@ class main_controller implements main_interface
 					'SHOW_PREVIEW'		=> $preview,
 				));
 
-				return $this->helper->render('posting_body.html', $this->lang->lang('KB_KNOWLEDGEBASE') . ' - ' . $page_title);
+				return $this->helper->render('posting_body.html', $this->lang->lang('KNOWLEDGEBASE') . ' - ' . $page_title);
 			break;
 
 			case 'viewarticle':
@@ -1056,7 +1056,7 @@ class main_controller implements main_interface
 					'U_VIEW_ARTICLE_LINK'	=> $this->helper->route('kinerity_knowledgebase_main_controller', array('page' => 'viewarticle', 'a' => (int) $article_id), true, false, UrlGeneratorInterface::ABSOLUTE_URL),
 				));
 
-				return $this->helper->render('viewarticle_body.html', $this->lang->lang('KB_KNOWLEDGEBASE') . ' - ' . $data['article_title']);
+				return $this->helper->render('viewarticle_body.html', $this->lang->lang('KNOWLEDGEBASE') . ' - ' . $data['article_title']);
 			break;
 
 			default:
